@@ -86,9 +86,7 @@ function. This allows custom fonts to be loaded (surprise!) locally. If the user
 This approach provides a nice fallback mechanism that potentially saves bandwidth. On the Internet, unfortunately, we cannot have nice things. The problem with the `local()` function is that it can be abused for browser fingerprinting. Turns out, the list of fonts a user has installed can be pretty identifying. A lot of companies have their own corporate fonts that are installed on employees' laptops. For example, Google has a corporate font called *Google Sans*.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot--filled"
-       src="google-sans.png"
-       alt="The macOS Font Book app showing a preview of the Google Sans font.">
+  {% Img src="image/tcFciHGuF3MxnTr1y5ue01OGLBn2/xivl6c1xM2VlqFf9GvgQ.png", alt="The macOS Font Book app showing a preview of the Google Sans font.", width="800", height="420", class="w-screenshot w-screenshot--filled" %}
   <figcaption class="w-figcaption">
     The Google Sans font installed on a Google employee's laptop.
   </figcaption>
